@@ -1,5 +1,5 @@
 # count
-count is a simple program, written in C, created to count the existing files in a given folder with a given extension, even recursevely.
+count is a simple program, written in C, created to count the existing files in a given folder with a given extension, even recursively.
 ## Compiling
 First of all, you need to compile the source code to generate a functional binary. Open the terminal and place yourself in the same folder as the source files with `cd /folder/to/source/files`.
 Compile as following
@@ -20,7 +20,7 @@ count [-r] [extension] [folder]
 ```
 count -r txt .
 ```
-This simple line of code will search for every file with txt extension recursevely in the current working folder. The grand total will be displayed at the end of the process.
+This simple line of code will search for every file with txt extension recursively in the current working folder. The grand total will be displayed at the end of the process.
 ### Notes
 *count* is currently available only for Unix operating systems.
 *count* has been tested only on OS X 10.9.1
